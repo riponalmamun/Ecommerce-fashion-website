@@ -109,3 +109,65 @@ nav ul li a{
     padding-right: 20px;
     font-size: 14px;
   }
+  
+
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {
+    background: red;
+  }
+  .logo{
+    width: 97%;
+    height: 16vh;
+  }
+  .con h1{
+    font-size: 13px;
+  font-weight: 90;
+  margin-top: 8px;
+  margin-bottom: 7px;
+  }
+  .icons img
+{
+  width: 14px;
+  margin-right: 19px;
+}
+.feature
+{
+  height: 24%;
+  right: 32px;
+}
+.link{
+  left: -125px;
+  bottom: 155px;
+}
+.con .btn{
+  padding: 0px 3px;
+}
+.log{
+  width: 77px;
+font-size: 10px;
+}
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .example {background: green;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .example {background: blue;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .example {background: orange;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .example {background: pink;}
+}
